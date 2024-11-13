@@ -1,0 +1,69 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background: url('https://www.w3schools.com/w3images/forestbridge.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Container for the app */
+  .container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Heading */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  /* Input and button styling */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #cityInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 60%;
+  }
+  
+  #getWeatherBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f1c40f;
+    color: #000;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #getWeatherBtn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Weather information section */
+  .weather-info {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
